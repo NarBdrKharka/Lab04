@@ -18,7 +18,7 @@ class MergeSorting {
         int i = 0, j = 0;
 
         //initial index of the merged sub array
-        int a = lo;
+        int a = lo;//this is temporary array to hold the sorted array
         while (i < x && j < y) {
             if (L[i] <= R[j]) {
                 arr[a] = L[i];
