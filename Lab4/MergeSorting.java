@@ -24,7 +24,7 @@ class MergeSorting {
                 arr[a] = L[i];
                 i++;
             } else {
-                arr[a] = R[j];
+                arr[a] = R[j];//when false with the condition, it will store the low value with the shifting ..ex..3..4...it will do 4..3
                 j++;
             }
             a++;
